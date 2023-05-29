@@ -42,8 +42,26 @@ To get started with the YouTube Clone Project, follow these steps:
 
 ## Screenshots
 
-![Screenshot 1](Screenshot.png)
-> This screenshot shows the main page of the YouTube clone website with the header, sidebar, tabs, and video previews.
+- **Standard Laptop**
+
+  ![Standard Laptop](Screenshots/Screenshot-1500px.png)
+  > This screenshot shows the main page of the YouTube clone website with the header, sidebar, tabs, and video previews on a standard laptop screen.
+
+- **Smaller Device (Tablet)**
+
+<div align="center">
+  <img src="Screenshots/Screenshot-1000px.png" width="600">
+</div>
+
+> This screenshot demonstrates the responsive design of the YouTube clone website on a smaller device, such as a tablet. The layout adjusts to ensure optimal viewing and interaction.
+
+- **Even Smaller Device (Mobile)**
+
+<div align="center">
+  <img src="Screenshots/Screenshot-600px.png" width="400">
+</div>
+
+> This screenshot showcases the YouTube clone website's adaptability on an even smaller device, like a mobile phone. The responsive design ensures a seamless user experience on various screen sizes.
 
 
 ## Contributing
