@@ -1,0 +1,143 @@
+.Header{
+  margin-bottom: 20px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  background-color: white;
+}
+
+.LeftSection{
+  width:200px;
+  display: flex;
+  margin-right: 50px;
+  margin-left: 9px;
+}
+
+.LeftSectionIcons{
+  display: flex;
+  align-items: flex-end;
+}
+
+.Guide-Icon{
+  width: 23px;
+  margin-left: 15px;
+  margin-right: 22px;
+}
+
+.Logo-Icon{
+  width: 90px;
+}
+
+.Location{
+  font-family: Roboto, Arial;
+  color: rgb(97, 97, 97);
+  font-size: 10px;
+  margin-left: 3px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 13px;
+}
+
+.MiddleSection{
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  margin-bottom: -5px;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .MiddleSection {
+    display: none;
+  }
+}
+
+.SearchBox{
+  flex: 1;
+  padding: 9.5px 0px 9.5px 5px;
+  font-family: Roboto, Arial;
+  font-weight: 300;
+  font-size: 16px;
+  border-color: rgb(204, 204, 204);
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  max-width: 515px;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+.SearchBox::placeholder{
+  padding-left: 10px;
+}
+
+.SearchButton{
+  border-color: rgb(204, 204, 204);
+  border-style: solid;
+  border-width: 1px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left-width: 0px;
+  padding-top: 8.5px;
+}
+
+.SearchSign{
+  width: 25px;
+  padding: 0px 13px;
+}
+
+.VoiceRecordButton{
+  width: 36px;
+  border: none;
+  background-color: white;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+
+.RightSection{
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  margin-left: 50px;
+  align-content: center;
+}
+
+.Create-Icon{
+  width: 25px;
+}
+
+.Notifications-Number-Container{
+  position: relative;
+}
+
+.Notifications-Icon{
+  width: 25px;
+}
+
+.NotificationsNumber{
+  position: absolute;
+  color: white;
+  background-color: rgb(185, 0, 0);
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+  top: 0px;
+  right: -2px;
+}
+
+.Current-User-Picture{
+  border-radius: 16px;
+  width: 32px;
+  height: 32px;
+  margin-right: 40px;
+}

@@ -1,0 +1,74 @@
+/*
+  ویدیوها اگه صفحه کوچیک بشه فقط یکیش نمایش داده بشه
+*/
+
+.Video-Preview-Grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  padding-top: 135px;
+  padding-left: 265px;
+  padding-right: 50px;
+}
+
+.Video-Picture{
+  position: relative;
+}
+
+.VideoPicture{  
+  border-radius: 10px;
+  width: 100%;
+}
+
+.VideoDuration{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  background-color: black;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 4px;
+}
+
+.Video-Information-Grid{
+display: grid;
+grid-template-columns: 35px 1fr;
+column-gap: 10px;
+}
+
+.AuthorPicture{
+  border-radius: 50px;
+  width: 100%;
+}
+
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Roboto, Arial;
+}
+
+.VideoTitle{
+  font-size: 16px;
+  line-height: 22px;  
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.VideoAuthor{
+  margin-bottom: 4px;
+  }
+  
+.VideoAuthor,
+.VideoStatus{
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+}

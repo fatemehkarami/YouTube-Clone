@@ -1,0 +1,15 @@
+.Tabs{
+  background-color: brown;
+  position: fixed;
+  top: 50px;
+  left: 273px;
+  right: 0px;
+  height: 40px;
+  z-index: 1;
+}
+
+.buttons{
+  font-family: Roboto, Arial;
+
+
+}

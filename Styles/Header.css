@@ -1,0 +1,201 @@
+.Header{
+  margin-bottom: 20px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: flex-start;
+  background-color: white;
+}
+
+.LeftSection{
+  width:200px;
+  display: flex;
+  margin: 10px 50px 0px 9px;
+}
+
+.LeftSectionIcons{
+  display: flex;
+}
+
+.Guide-Icon{
+  width: 23px;
+  margin: -4px 15px -2px 6px;
+  padding: 10px;
+  border-radius: 24px;
+}
+
+.Guide-Icon:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.Logo-Icon{
+  width: 90px;
+  margin-top: 8px;
+}
+
+.Logo-Icon:hover{
+  cursor: pointer;
+}
+
+.Location{
+  color: rgb(97, 97, 97);
+  font-size: 10px;
+  margin-left: 3px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.MiddleSection{
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 7px 0px -5px 0px;
+}
+
+@media (max-width: 600px) {
+  .MiddleSection {
+    display: none;
+  }
+}
+
+.SearchBox{
+  flex: 1;
+  padding: 10px 0px 9.5px 5px;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 20px 0 0 20px;
+  max-width: 535px;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+.SearchBox:hover{
+  cursor: auto;
+}
+
+.SearchBox::placeholder{
+  padding-left: 10px;
+}
+
+.SearchButton{
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 0 20px 20px 0;
+  border-left-width: 0px;
+  padding-top: 8.5px;
+  background-color: rgb(242, 242, 242);
+}
+
+.SearchButton:hover{
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.SearchSign{
+  width: 25px;
+  padding: 0px 13px;
+}
+
+.VoiceRecordButton{
+  width: 36px;
+  border: none;
+  background-color: white;
+  margin: 0px 0px 2px 5px;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+.VoiceRecordButton:hover{
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.RightSection{
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  margin: 7px 0px 0px 50px;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.Create-Icon{
+  width: 25px;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.Notifications-Icon{
+  width: 25px;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.Create-Icon:hover,
+.Notifications-Icon:hover{
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.NotificationsNumber{
+  position: absolute;
+  color: white;
+  background-color: rgb(185, 0, 0);
+  font-size: 11px;
+  border-radius: 10px;
+  padding: 1.5px 5px;
+  top: 7px;
+  right: 5px;
+}
+
+.Current-User-Picture{
+  border-radius: 16px;
+  width: 32px;
+  height: 32px;
+  margin-right: 40px;
+}
+
+.Current-User-Picture:hover{
+  cursor: pointer;
+}
+
+.Tooltip-Logo,
+.Search-Button,
+.Voice-Record-Button,
+.CreateIcon,
+.Notifications-Number-Container{
+  position: relative;
+}
+
+.Tooltip-Logo .Tooltip,
+.Search-Button .Tooltip,
+.Voice-Record-Button .Tooltip,
+.CreateIcon .Tooltip,
+.Notifications-Number-Container .Tooltip{
+  font-size: 12px;
+  white-space: nowrap;
+  background-color: lightgray;
+  position: absolute;
+  padding: 4px 5px;
+  border-radius: 3px;
+  top: 43px;
+  left:10px;
+  opacity: 0;
+  transition: opacity 0.13s;
+}
+
+.Tooltip-Logo:hover .Tooltip,
+.Search-Button:hover .Tooltip,
+.Voice-Record-Button:hover .Tooltip,
+.CreateIcon:hover .Tooltip,
+.Notifications-Number-Container:hover .Tooltip{
+    opacity: 1;
+  }

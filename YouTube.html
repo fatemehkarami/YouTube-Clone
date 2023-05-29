@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>YouTube</title>
+    <link rel="icon" href="Icons/YouTube-Logo.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/General.css">
+    <link rel="stylesheet" href="Styles/Header.css">
+    <link rel="stylesheet" href="Styles/Tabs.css">
+    <link rel="stylesheet" href="Styles/Sidebar.css">
+    <link rel="stylesheet" href="Styles/Videos.css">
+  </head>
+
+  <body>
+
+    <header class="Header">
+      <div class="LeftSection">
+        <div class="LeftSectionIcons">
+          <img class="Guide-Icon" src="Icons/Guide.svg">
+          <div class="Tooltip-Logo">
+            <img class="Logo-Icon" src="Icons/Logo.svg">
+            <div class="Tooltip">YouTube Home</div>
+          </div>
+        </div>
+        <div class="Location">
+          AU
+        </div>
+      </div>
+      <div class="MiddleSection">
+        <input class="SearchBox" type="text" placeholder="Search">
+        <div class="Search-Button">
+          <button class="SearchButton">
+            <img class="SearchSign" src="Icons/Search.svg">
+          </button>
+          <div class="Tooltip">Search</div>
+        </div>
+        <div class="Voice-Record-Button">
+          <button class="VoiceRecordButton">
+            <img class="VoiceRecordSign" src="Icons/Voice.svg">
+          </button>
+          <div class="Tooltip">Search with your voice</div>
+        </div>
+      </div>
+      <div class="RightSection">
+        <div class="CreateIcon">
+          <img class="Create-Icon" src="Icons/Create.svg">
+          <div class="Tooltip">Create</div>
+        </div>
+        <div class="Notifications-Number-Container">
+          <img class="Notifications-Icon" src="Icons/Notifications.svg">
+          <div class="NotificationsNumber">3</div>
+          <div class="Tooltip">Notifications</div>
+        </div>
+        <div>
+        <img class="Current-User-Picture" src="ChannelPicture/CurrentUserPicture.jpeg">
+        </div>
+      </div>
+    </header>
+
+    <nav class="Sidebar">
+      <div class="SidebarPart1">
+        <div class="SideIcons-Home">
+          <img src="Icons/Home.svg">
+          <div>Home</div>
+        </div>
+        <div class="SideIcons">
+          <img src="Icons/Shorts.svg">
+          <div>Shorts</div>
+        </div>
+        <div class="SideIcons">
+          <img src="Icons/Subscriptions.svg">
+          <div>Subscriptions</div>
+        </div>
+      </div>
+      <div class="SidebarPart2">
+        <div class="SideIcons">
+          <img src="Icons/Library.svg">
+          <div>Library</div>
+        </div>
+        <div class="SideIcons">
+          <img src="Icons/History.svg">
+          <div>History</div>
+        </div>    
+        <div class="SideIcons">
+          <img src="Icons/Your-Videos.svg">
+          <div>Your videos</div>
+        </div>      
+        <div class="SideIcons">
+          <img src="Icons/Watch-Later.svg">
+          <div>Watch later</div>
+        </div>     
+        <div class="SideIcons">
+          <img src="Icons/Liked-Videos.svg">
+          <div>Liked videos</div>
+        </div>    
+      </div> 
+      <div class=SubscriptionsTitle>Subscriptions</div>
+      <div class="SubscriptionsList">
+        <div class="SubscribedChannels">
+          <img src="ChannelPicture/ChannelPicture-1.jpeg">
+          <div>SuperSimpleDev</div>
+        </div>
+        <div class="SubscribedChannels">
+          <img src="ChannelPicture/ChannelPicture-2.jpeg">
+          <div>Dave Gray</div>
+        </div>
+        <div class="SubscribedChannels">
+          <img src="ChannelPicture/ChannelPicture-4.jpeg">
+          <div>New Courses</div>
+        </div>
+        <div class="SubscribedChannels">
+          <img src="ChannelPicture/ChannelPicture-5.jpeg">
+          <div>Simplilearn</div>
+        </div>
+        <div class="SubscribedChannels">
+          <img src="ChannelPicture/ChannelPicture-6.jpeg">
+          <div>freeCodeCamp.org</div>
+        </div>
+        <div class="SubscribedChannels">
+          <img src="ChannelPicture/ChannelPicture-7.jpeg">
+          <div>Tech With Tim</div>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="Tabs">
+      <div class="buttons">
+        <button class="button-All">All</button>
+        <button class="button">Music</button>
+        <button class="button">Live</button>
+        <button class="button">Meditation music</button>
+        <button class="button">CSS</button>
+        <button class="button">Chill-out music</button>
+        <button class="button">Computer Science</button>
+        <button class="button">Mixes</button>
+        <button class="button">Practice</button>
+        <button class="button">Animated films</button>
+        <button class="button">Thoughts</button>
+        <button class="button">Cooking shows</button>
+        <button class="button">Classical Music</button>
+        <button class="button">Comedy</button>
+        <button class="button">Ed Sheeran</button>
+        <button class="button">News</button>
+        <button class="button">Recently uploaded</button>
+        <button class="button">Watched</button>
+      </div>
+    </nav>
+
+    <main>
+      <section class="Video-Preview-Grid">
+        <div class="Video-Preview">
+          <div class="Video-Picture">
+            <img class="VideoPicture" src="Thumbnails/Thumbnail-1.webp">
+            <div class="VideoDuration">12:58</div>
+          </div>
+          <div class="Video-Information-Grid">
+            <div class="Author-Picture">
+              <img class="AuthorPicture" src="ChannelPicture/ChannelPicture-1.jpeg">
+            </div>
+            <div class="Video-Info">
+              <p class="VideoTitle">
+                Backend web development - a complete overview
+              </p>
+              <p class='VideoAuthor'>
+                SuperSimpleDev
+              </p>
+              <p class="VideoStatus">
+                1M views &#183 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="Video-Preview">
+          <div class="Video-Picture">
+            <img class="VideoPicture" src="Thumbnails/Thumbnail-2.webp">
+            <div class="VideoDuration">11:08:07</div>
+          </div>
+          <div class="Video-Information-Grid">
+            <div class="Author-Picture">
+              <img class="AuthorPicture" src="ChannelPicture/ChannelPicture-2.jpeg">
+            </div>
+            <div class="Video-Info">
+              <p class="VideoTitle">
+                CSS Full Course for Beginners &#124; Complete All-in-One Tutorial &#124; 11 Hours
+              </p>
+              <p class='VideoAuthor'>
+                Dave Gray
+              </p>
+              <p class="VideoStatus">
+                357K views &#183 9 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="Video-Preview">
+          <div class="Video-Picture">
+            <img class="VideoPicture" src="Thumbnails/Thumbnail-3.webp">
+            <div class="VideoDuration">1:45:11</div>
+          </div>
+          <div class="Video-Information-Grid">
+            <div class="Author-Picture">
+              <img class="AuthorPicture" src="ChannelPicture/ChannelPicture-3.jpeg">
+            </div>
+            <div class="Video-Info">
+              <p class="VideoTitle">
+                BEST JavaScript Tutorial for Beginners for Getting a Job 2021 (High Quality, Project Based Course)
+              </p>
+              <p class='VideoAuthor'>
+                SuperSimpleDev
+              </p>
+              <p class="VideoStatus">
+                547 views &#183 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="Video-Preview">
+          <div class="Video-Picture">
+            <img class="VideoPicture" src="Thumbnails/Thumbnail-4.webp">
+            <div class="VideoDuration">1:09:34</div>
+          </div>
+          <div class="Video-Information-Grid">
+            <div class="Author-Picture">
+              <img class="AuthorPicture" src="ChannelPicture/ChannelPicture-4.jpeg">
+            </div>
+            <div class="Video-Info">
+              <p class="VideoTitle">
+                The Ultimate HTML full course
+              </p>
+              <p class='VideoAuthor'>
+                New Courses
+              </p>
+              <p class="VideoStatus">
+                856 views &#183 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="Video-Preview">
+          <div class="Video-Picture">
+            <img class="VideoPicture" src="Thumbnails/Thumbnail-5.webp">
+            <div class="VideoDuration">11:32:30</div>
+          </div>
+          <div class="Video-Information-Grid">
+            <div class="Author-Picture">
+              <img class="AuthorPicture" src="ChannelPicture/ChannelPicture-5.jpeg">
+            </div>
+            <div class="Video-Info">
+              <p class="VideoTitle">
+                &#128293Front End Full Course &#124; Front End Development Tutorial &#124; Front End Development Course &#124; Simplilearn
+              </p>
+              <p class='VideoAuthor'>
+                Simplilearn
+              </p>
+              <p class="VideoStatus">
+                12K views &#183 Streamed 2 months ago
+              </p>
+            </div>
+          </div>
+        </div>  
+        <div class="Video-Preview">
+          <div class="Video-Picture">
+            <img class="VideoPicture" src="Thumbnails/Thumbnail-6.webp">
+            <div class="VideoDuration">21:14:42</div>
+          </div>
+          <div class="Video-Information-Grid">
+            <div class="Author-Picture">
+              <img class="AuthorPicture" src="ChannelPicture/ChannelPicture-6.jpeg">
+            </div>
+            <div class="Video-Info">
+              <p class="VideoTitle">
+                Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)
+              </p>
+              <p class='VideoAuthor'>
+                freeCodeCamp.org
+              </p>
+              <p class="VideoStatus">
+                1.5M views &#183 8 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+  </body>
+
+</html>

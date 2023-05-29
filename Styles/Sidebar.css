@@ -1,0 +1,144 @@
+.Sidebar{
+  background-color: white;
+  position: fixed;
+  top: 70px;
+  left: 0px;
+  bottom: 0px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 5px;
+  gap: 20px;
+  overflow-y: auto; 
+}
+
+.SidebarPart1,
+.SidebarPart2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 205px;
+  margin-left: 10px;
+}
+
+.SidebarPart2{
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.SideIcons-Home,
+.SideIcons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 22px;
+  padding: 6px 0px 6px 15px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.SideIcons-Home{
+  background-color: rgb(238, 238, 238);
+}
+
+.SideIcons-Home:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.SideIcons:hover{
+  cursor: pointer;
+  background-color: rgb(238, 238, 238);
+}
+
+.SideIcons-Home img,
+.SideIcons img{
+  width: 25px;
+}
+
+.SideIcons-Home div,
+.SideIcons div{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.SubscriptionsTitle{
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 25px;
+}
+
+.SubscriptionsList{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 25px;
+}
+
+.SubscribedChannels{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.SubscribedChannels:hover{
+  cursor: pointer;
+  background-color: rgb(238, 238, 238);
+}
+
+.SubscribedChannels img{
+  width: 26px;
+  border-radius: 13px;
+}
+
+.SubscribedChannels div{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+@media (min-width: 601px) and (max-width: 1100px){
+  .Sidebar {
+    width: 110px;
+  }
+  .SidebarPart1,
+  .SidebarPart2 {
+    width: 105px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 0px;
+    padding-left: 15px;
+  }
+  .SideIcons-Home,
+  .SideIcons{
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 6px;
+    width:60px;
+  }
+  .SideIcons-Home div
+  .SideIcons div{
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .SubscriptionsTitle, 
+  .SubscriptionsList{
+    display: none;
+  }
+}
+
+@media (max-width: 600px){
+  .Sidebar{
+    display: none;
+  }
+  .SubscriptionsTitle, 
+  .SubscriptionsList{
+    display: none;
+  }
+}

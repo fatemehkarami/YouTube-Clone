@@ -1,0 +1,56 @@
+.Tabs{
+  position: fixed;
+  top: 75px;
+  left: 260px;
+  right: 0px;
+  height: 40px;
+  z-index: 1;
+  background-color: white;
+  overflow-x: scroll;
+}
+
+@media (max-width: 600px) {
+  .Tabs {
+    left: 20px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1100px){
+  .Tabs {
+    left: 140px;
+  }
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.button-All{
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 7px 13px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.button-All:hover{
+  cursor: pointer;
+}
+
+.button{
+  background-color: rgba(0, 0, 0, 0.05);
+  border: none;
+  padding: 7px 13px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.button:hover{
+  cursor: pointer;
+  background-color: lightgray;
+}
