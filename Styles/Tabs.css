@@ -1,6 +1,7 @@
 .Tabs{
   position: fixed;
-  top: 75px;
+  top: 70px;
+  padding-top: 5px;
   left: 260px;
   right: 0px;
   height: 40px;
