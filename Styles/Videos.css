@@ -9,14 +9,14 @@
 @media (max-width: 600px){
   .Video-Preview-Grid{
     grid-template-columns: 1fr;
-    padding: 50px 50px 50px 50px;
+    padding: 130px 50px 50px 50px;
   }
 }
 
 @media (min-width: 601px) and (max-width: 1100px){
   .Video-Preview-Grid{
     grid-template-columns: 1fr 1fr;
-    padding: 130px 50px 0px 135px;
+    padding: 130px 50px 50px 135px;
   }
 }
 
