@@ -17,7 +17,7 @@ Happy coding!
 - Header with logo, search box, and user profile information.
 - Sidebar with navigation links and subscribed channels.
 - Tabs for different categories of videos.
-- Video previews with thumbnail, duration, and author information.
+- Video previews with thumbnail, video duration, title, author information, and video statistics.
 - Responsiveness: The website is designed to be responsive, ensuring a seamless experience across various screen sizes and devices. It dynamically adjusts the layout, font sizes, and element positioning to provide optimal viewing and interaction on desktops, laptops, tablets, and mobile devices.
 
 
